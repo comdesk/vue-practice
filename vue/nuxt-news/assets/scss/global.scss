@@ -1,0 +1,18 @@
+@forward "./_font.scss";
+@forward "./color";
+@use "./color" as *;
+@forward "./mixin";
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    // Font
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-black-700;
+}
